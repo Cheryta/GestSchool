@@ -18,7 +18,11 @@
                 </div>
                 <div class="mb-3">
                     <label  class="form-label">GENRE</label>
-                    <input type="text" class="form-control" name="genre" placeholder="Genre">
+                    <select class="form-select" name="genre" aria-label="Default select example">
+                        <option selected>Genre</option>
+                        <option value="Masculin">Masculin</option>
+                        <option value="Feminin">Feminin</option>
+                    </select>
                 </div>
                 <div class="mb-3">
                 <label  class="form-label">AGE</label>
@@ -30,7 +34,7 @@
                 </div>
                 <div class="mb-3">
                 <label  class="form-label">ADRESSE</label>
-                <input type="text" class="form-control" name="adresse" placeholder="Adresse de l'etudiant">
+                <textarea class="form-control" name="adresse" rows="3">Adresse de l'etudiant</textarea>
                 </div>
                 <div class="mb-3">
                     <button type="submit" class="btn btn-danger btn-lg" value="valider">Enregistrer</button>
