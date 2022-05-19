@@ -34,7 +34,7 @@
                 </div>
                 <div class="mb-3">
                 <label  class="form-label">ADRESSE</label>
-                <textarea class="form-control" name="adresse" rows="3">Adresse de l'etudiant</textarea>
+                <textarea class="form-control" name="adresse" rows="3" placeholder="Entrer l'adresse de l'etudiant"></textarea>
                 </div>
                 <div class="mb-3">
                     <button type="submit" class="btn btn-danger btn-lg" value="valider">Enregistrer</button>
